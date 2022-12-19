@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Pseudo Elemente */
+
+h1::first-letter {
+    color: purple;
+    font-size: 200px;
+}
+
+p::first-line {
+    color: red;
+    background-color: blueviolet;
+}
+
+p::selection {
+    color: blue;
+    background-color: yellow;
+}
+
+/* kommas sind wie ein & */
+ul, ol { 
+    margin: 50px;
+    font-size: 30px;
+}
+
+li::marker {
+    color: green;
+}
+
+ol li::marker {
+    color: red;
+}
+
+h3, h4 {
+    margin: 20px;
+}
+
+h3::before {
+    content:"❤️";
+    margin-right: 10px;
+    font-size: 50px;
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+
+h4::after {
+    content: " - das ist ein ::after";
+    color: darksalmon;
+    font-style: italic;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Pseudo Classes */
+
+nav {
+    margin: 50px;
+}
+
+/* nav a {
+    color: blueviolet;
+    text-decoration: none;
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+    background-color: aqua;
+    padding: 5px 10px;
+} */
+
+nav a:hover {
+    text-decoration: underline;
+    background-color: blueviolet;
+    color: aqua;
+    font-size: 30px;
+}
+
+nav a:active {
+    color: darkkhaki;
+    font-size: 25px;
+}
+
+/* Klassen class */
+
+.colorYellow {
+    color:yellow;
+}
+
+.backgroundBlack {
+    background-color: black;
+    color:blanchedalmond;
+}
+
+.backgroundBlue {
+    background-color: blue;
+}
+
+#sectionOne,
+#sectionTwo,
+#footer {
+    height: 400px;
+}
+
+#sectionOne {
+    background-color: aquamarine;
+}
+
+#sectionTwo {
+    background-color: brown;
+}
+
+#footer {
+    background-color: coral;
+}

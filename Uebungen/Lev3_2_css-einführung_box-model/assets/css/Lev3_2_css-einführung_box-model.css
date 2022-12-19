@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family: FrederickatheGreat;
+    src: url(../fonts/FrederickatheGreat-Regular.ttf);
+}
+
+/* HEADER */
+
+header {
+    background-image: url(../img/Lev3_2_css-einführung_box-model_img.jpg);
+/*  height: 1080px;
+    width: 1920px; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#plants123 {
+    color: white;
+    font-size: 36px;
+    font-family: FrederickatheGreat;
+    padding-top: 20px;
+    padding-left: 150px;
+}
+
+.oben {
+    color: white;
+    width: 300px;
+    margin-left: 850px;
+    margin-top: 200px;
+    text-align: center;
+    font-family: OpenSans;
+}
+
+#welcome {
+    padding-bottom: 20px;
+}
+
+#obenText {
+    padding-bottom: 20px;
+}
+
+#read-more-button {
+    padding:5px 5px;
+    margin-left: 75px;
+    width: 150px;
+    border: 1px solid white;
+    text-align: center;
+}
+
+#read-more-button a {
+    text-decoration: none;
+    color:white;
+}
+
+#read-more-button a:hover {
+    color: black;
+}
+
+#read-more-button:hover {
+    color: black;
+    background-color: white;
+}
+
+
+
+#about-etc {
+    text-align: right;
+    padding-top: 300px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    font-family: OpenSans;
+}
+
+#about-etc a {
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+
+
+
+#about-etc a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+/* MAIN */
+
+main {
+    color: black;
+    font-family: OpenSans;
+    height: 500px;
+}
+
+
+#main-text {
+    text-align: center;
+    width: 500px;
+    margin-left: 775px;
+}
+
+#ueberschrift-main {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#contact-button {
+    width: 180px;
+    text-align: center;
+    padding: 30px;
+    margin-top: 20px;
+    margin-left: 140px;
+    border: 2px solid black;
+}
+
+#contact-button a {
+    color: black;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#contact-button a:hover {
+    color: purple;
+    text-decoration: underline;
+}
+
+
+
+footer {
+    background-color: grey;
+    color: white;
+    font-family: OpenSans;
+}
+
+/* FOOTER */
+
+#footer-text {
+    width: 700px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+#findus {
+    width: 100px;
+    border: 2px solid white;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#findus:hover {
+    color: black;
+    background-color: white;
+
+}
+
+#findus a:hover {
+    color: black;
+    background-color: white;   
+}
+
+#findus a {
+    color: white;
+    text-decoration: none;
+
+}
+
+#footer-links {
+    text-align: right;
+    padding-bottom: 20px;
+}
+
+#footer-links a {
+    color: white;
+    text-decoration: none;
+    padding-right: 30px;
+}
